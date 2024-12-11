@@ -1,0 +1,988 @@
+
+@font-face {
+	font-family:'SF Pro Display';
+     src:url(../fonts/SanFranciscoDisplay-Bold.otf)
+}
+@font-face {
+    font-family: 'SF Pro Display regular';
+    src: url(../fonts/SanFranciscoDisplay-Regular.otf);
+}
+@font-face {
+    font-family: 'SF Pro Display medium';
+    src: url(../fonts/SanFranciscoDisplay-Medium.otf)
+}
+@font-face {
+    font-family: 'SF Pro Display light';
+    src: url(../Apple/fonts/SF-Pro-Display-Light.otf);
+}
+@font-face {
+    font-family: 'SF Pro Display semibold';
+    src: url(../fonts/SF-Pro-Display-Semibold.otf);
+}
+@font-face {
+    font-family: 'SF Pro text thin';
+    src: url(../fonts/SF-Pro-Display-Thin.otf);
+}
+
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    overflow-x: hidden;
+  
+}
+
+header{
+ 
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    padding: 13px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    z-index: 1400;
+    backdrop-filter: blur(2rem);
+    background-color: rgba(22, 22, 23, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+header nav ul li{
+   display: inline;
+   margin-left: 37px;
+    color: rgba(255, 255, 255, .8);
+
+}
+
+li{
+    font-size: 13px;
+}
+#apple-logo{
+    width: 10px;
+}
+.sub-nav{
+    text-align: center;
+    padding: 40px 0px;
+    background-color:rgb(29, 29, 31);
+    color: rgb(245, 245, 247);;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+.sub-nav p{
+    transform: translate(-2px, 17px);
+	font-family:'SF Pro Display';
+}
+.sub-nav span{
+    color: #0071e3;
+    cursor: pointer;
+    overflow-x: hidden;
+    font-family: 'SF Pro Display regular';
+    font-size: 15px;
+    margin-left: 2px;
+}
+.hero{
+
+    color: white;
+    text-align: center; 
+    margin-top: -7px;
+    overflow-x: hidden;
+}
+.hero h2{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 550;
+    letter-spacing: -.005em;
+    transform: translate(-5px, -654px);
+    font-family: 'SF Pro Display semibold';
+}
+
+.hero p{
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    transform: translate(-5px, -654px);
+    margin-top: 6px;
+    font-family: 'SF Pro Display regular';
+}
+
+.hero img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.hero button{
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 1055px;
+    transform: translate(2px, -243px);
+    color: #fff;
+    border-color: #0071e3;
+    border-style: solid; 
+    background: #0071e3;
+    border-style: solid;
+    padding-right: 19px;
+    border-width: 1px;
+    height: 46px;
+    min-width: 28px
+}
+.hero button text{
+    font-size: 1px;
+}
+#btn-1{
+    color: #2997ff;
+    border-color: #2997ff;
+    background: rgba(0, 0, 0, 0);
+    margin-right: 10px;
+    transform: translate(14px, -246px);
+    padding-right: 28px;
+    text-align: center;
+     display:table-cell;
+     vertical-align:middle;
+     line-height: 0px;
+     padding: 22px;
+}
+.hero #p-1{
+    margin-top: 16px;
+    transform: translate(3px, -243px);
+    font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #86868b;
+}
+.hero-1{
+    color: white;
+    text-align: center; 
+    margin-top: 120px;
+  
+}
+.hero-1 h2{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 550;
+    letter-spacing: -.005em;
+    transform: translate(-5px, -654px);
+    font-family: 'SF Pro Display semibold';
+}
+.hero-1 p{
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    transform: translate(-5px, -654px);
+    margin-top: 6px;
+    font-family: 'SF Pro Display regular';
+   
+}
+.hero-1 img{
+    height: 700px;
+    width: 100%;
+    margin-top: -315px;
+    object-fit: cover;
+}
+.hero-1 button{
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 1055px;
+      color: #fff;
+    border-color: #0071e3;
+    border-style: solid; 
+    background: #0071e3;
+    border-style: solid;
+    padding-right: 19px;
+    border-width: 1px;
+    height: 46px;
+    min-width: 28px;
+    transform: translate(1px, -244px);
+
+}
+
+.hero-1 #p-1{
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: rgb(134, 134, 139);
+    transform: translate(1px, -246px);
+}
+.hero-2 #p-1{
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: rgb(134, 134, 139);
+    transform: translate(-8px, -188px);
+}
+.hero-2 #p-2{
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    transform: translate(-109px, -166px);
+    font-size: 21px;
+}
+.hero-2{
+    color: white;
+    text-align: center; 
+    margin-top: 120px;
+  
+}
+.hero-2 h2{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 550;
+    letter-spacing: -.005em;
+    transform: translate(-2px, -628px);
+    font-family: 'SF Pro Display semibold';
+
+}
+.hero-2 p{
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    transform: translate(0px, -628px);
+    margin-top: 6px;
+    font-family: 'SF Pro Display regular';
+   
+}
+.hero-2 img{
+    height: 700px;
+    width: 100%;
+    margin-top: -330px;
+    object-fit: cover;
+    margin-bottom: -22px;
+}
+.hero-2 button{
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 1055px;
+      color: #fff;
+    border-color: #0071e3;
+    border-style: solid; 
+    background: #0071e3;
+    border-style: solid;
+    padding-right: 19px;
+    border-width: 1px;
+    height: 46px;
+    min-width: 28px;
+    transform: translate(121px, -615px);
+
+}
+#btn{
+    color: #2997ff;
+    border-color: #2997ff;
+    background: rgba(0, 0, 0, 0);
+    margin-right: 10px;
+    padding-right: 28px;
+    text-align: center;
+     display:table-cell;
+     vertical-align:middle;
+     line-height: 0px;
+     padding: 22px;
+     transform: translate(138px, -617px);
+  
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1584px;
+    margin: -166px auto;
+    overflow-x: hidden;
+}
+.card p {
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    transform: translate(288px, -519px);
+    font-family: 'SF Pro Display regular';
+}
+.card img {
+   height: 700px;
+   height: 607px;
+   width: 102%;
+   object-fit: cover;
+   margin-top: -44px;
+   margin-left: -15px;
+
+}
+#watch{
+    width: 20%;
+    height: 100px;
+    object-fit: scale-down;
+    transform: translate(302px, -504px);
+   
+} 
+.card button{
+    font-size: 14px;
+    width: 104px;
+    border-width: 1px;
+    border-radius: 980px;
+    height: 37px;
+    transform: translate(261px, -503px);
+    background: #0071e3;
+    color: #fff;
+    border-style: solid;
+    border-color: #0071e3;
+    border-color: rgba(0, 0, 0, 0);
+    margin-left: 11px;
+}
+#btn-buy{
+    background: rgba(0, 0, 0, 0);
+    color: #06c;
+    border-color: #06c;
+    width: 65px;
+}
+   
+.card-1 H3{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #f5f5f7;
+    transform: translate(1085px, -200px)
+}
+.card-1 p{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: 'SF Pro Display regular';
+    color: #f5f5f7;
+    transform: translate(1060px, -199px);
+    margin-top: 4px;
+
+}
+.card-1 #p-3{
+    transform: translate(990px, -202px);
+}
+
+.card-1 img {
+  
+    height: 583px;
+    width: 49%;
+    object-fit: cover;
+    margin-top: -561px;
+    margin-left: 793px;
+ }
+ .card-1 button{
+    font-size: 14px;
+    width: 110px;
+    border-width: 1px;
+    border-radius: 980px;
+    height: 36px;
+    transform: translate(1064px, -186px);
+    background: #0071e3;
+    border-style: solid;
+    border-color: #0071e3;
+    color: #fff;
+    border-color: #0071e3;
+    margin-left: 11px;
+}
+.card-2 H3{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1d1d1f;
+    transform: translate(310px, -537px);
+}
+.card-2 p{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: 'SF Pro Display medium';
+    color: #1d1d1f;
+    transform: translate(298px, -537px);
+    margin-top: 4px;
+}
+.card-2 img {
+    height: 583px;
+    width: 49%;
+    position: relative;
+    object-fit: cover;
+    margin-top: -131px;
+    margin-left: 6px;
+   
+ }
+ .card-2 button{
+    font-size: 14px;
+    width: 106px;
+    border-width: 1px;
+    border-radius: 980px;
+    height: 37px;
+    transform: translate(284px, -520px);
+    background: #0071e3;
+    color: #fff;
+    border-style: solid;
+    border-color: #0071e3;
+    margin-left: 11px;
+}
+
+.card-2 #p-1{
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: rgb(134, 134, 139);
+    transform: translate(307px, -185px);
+}
+.card-2 #p-2{
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    transform: translate(100px, -167px);
+    font-size: 16px;
+}
+.card-3 H3{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'SF Pro Display medium';
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color: #1d1d1f;
+    transform: translate(1140px, -703px);
+}
+.subhead{
+    font-size: 24px;
+    letter-spacing: -0.989em;
+    font-weight: 500;
+    letter-spacing: .011em;
+    font-family: 'SF Pro Display regular';
+    color: #1d1d1f;
+    transform: translate(1137px, -775px);
+    margin-top: 4px;
+}
+.c1{
+    font-size: 21px;
+    line-height: -0.989em;
+    font-weight: 400;
+    letter-spacing: 0.117em;
+    
+    color: #3e935c;
+    margin-left: -6px;
+}
+.c2{
+    font-size: 21px;
+    line-height: -0.989em;
+    font-weight: 400;
+    letter-spacing: 0.117em;
+   
+    color: #edd142;
+    margin-left: -8px;
+}
+.c3{
+    font-size: 21px;
+    line-height: -0.989em;
+    font-weight: 400;
+    letter-spacing: 0.117em;
+   
+    color: #e3704b;
+    margin-left: -8px;
+
+}
+
+.c4{
+    font-size: 21px;
+    line-height: -0.989em;
+    font-weight: 400;
+    letter-spacing: 0.117em;
+   
+    color: #de5f7d;
+    margin-left: -8px;
+}
+.c5{
+    font-size: 21px;
+    line-height: -0.989em;
+    font-weight: 400;
+    letter-spacing: 0.117em;
+  
+    color: #827eb2;
+    margin-left: -8px;
+}
+.c6{
+    font-size: 21px;
+    line-height: -0.989em;
+    font-weight: 400;
+    letter-spacing: 0.117em;
+    
+    color: #547eae;
+    margin-left: -8px;
+}
+.c7{
+    font-size: 21px;
+    line-height: -0.989em;
+    font-weight: 500;
+    letter-spacing: .011em;
+   
+    color: #1d1d1f;
+    margin-left: -8px;
+}
+.card-3 img {
+    height: 583px;
+    width: 49%;
+     position: relative;
+    object-fit: cover;
+    margin-top: -561px;
+    margin-left: 793px;
+    transform: translate(0px, -169px);
+ }
+ .card-3 button{
+    font-size: 14px;
+    width: 106px;
+    border-width: 1px;
+    border-radius: 980px;
+    height: 37px;
+    transform: translate(1079px, -662px);
+    background: #0071e3;
+    color: #fff;
+    border-style: solid;
+    border-color: #0071e3;
+    margin-left: 11px;
+}
+.card-3 #p-1{
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: rgb(134, 134, 139);
+    transform: translate(1090px, -326px);
+}
+.card-3 #p-2{
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+    font-family: 'SF Pro Display regular';
+    color: transparent;
+    display: inline-block;
+    transform: translate(887px, -306px);
+    font-size: 16px;
+}
+.card-4 H3{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family:'SF Pro Display';
+    color: #1d1d1f;
+    transform: translate(308px, -527px);
+}
+.card-4 p{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1d1d1f;
+    transform: translate(264px, -527px);
+    margin-top: 4px;
+}
+.card-4 #p-1{
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.28577;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: rgb(134, 134, 139);
+    transform: translate(261px, -145px);
+}
+.card-4 img {
+    height: 583px;
+    width: 49%;
+    position: relative;
+    object-fit: cover;
+    margin-top: -306px;
+    margin-left: 6px;
+}
+.card-4 button{
+    font-size: 14px;
+    width: 106px;
+    border-width: 1px;
+    border-radius: 980px;
+    height: 37px;
+    transform: translate(287px, -543px);
+    background: #0071e3;
+    color: #fff;
+    border-style: solid;
+    border-color: #0071e3;
+    margin-left: 11px;
+}
+.card-5 p{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1d1d1f;
+    transform: translate(1039px, -977px);
+    margin-top: 4px;
+}
+.card-5 img {
+    height: 583px;
+    width: 49%;
+    position: relative;
+    object-fit: cover;
+    margin-top: -246px;
+    margin-left: 6px;
+    transform: translate(787px, -484px);
+}
+#tradein{
+    width: 10%;
+    height: 95px;
+    object-fit: scale-down;
+    transform: translate(308px, -948px);
+   
+} 
+.card-5 button{
+    font-size: 14px;
+    width: 145px;
+    border-width: 1px;
+    border-radius: 980px;
+    height: 36px;
+    transform: translate(1113px, -961px);
+    background: #0071e3;
+    color: #fff;
+    border-style: solid;
+    border-color: #0071e3;
+}
+
+
+.bottom{
+    margin-top: -541px;
+    margin-left: 144px;
+    color: #fd2222
+}
+.bottom img{
+    width: 1250px;
+    height: 690px;    
+}
+.pic-button{
+    font-size: 17px;
+    width: 131px;
+    font-weight: 400;
+    border-width: 1px;
+    border-radius: 980px;
+    height: 45px;
+    transform: translate(-1183px, -81px);
+    background: #F5F5F7 !important;
+    color: #000 !important;
+    border-color: rgba(0, 0, 0, 0)
+}
+.pic-para{
+    transform: translate(201px, -117px);
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-left: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+.genre{
+    font-weight: 800;
+}
+.m-dot-1{
+    transform: translate(273px, -156px);
+    font-size: 35px;
+    color: #fff;
+    
+}
+.sub-p{
+    font-weight: 600;
+    font-family: 'SF Pro Display regular';
+    margin-left: 9px;
+}
+.pic-para p{
+    transform: translate(180px, -91px);
+    font-weight: 100;
+}    
+
+.bottom-1{
+    --progress: 1;
+    margin-top: -768px;
+    margin-left: -1120px;
+
+}
+.bottom-1 img{
+    --progress: 1;
+    width: 1250px;
+    height: 690px;
+    opacity: 0.3;
+    background-color: #fff;
+ 
+}
+.bottom-2{
+    --progress: 1;
+    margin-top: -694px;
+    margin-left: 1411px;
+
+}
+.bottom-2 img{
+    --progress: 1;
+    width: 1250px;
+    height: 690px;
+    opacity: 0.3;
+    background-color: #fff;
+ 
+}
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+.dot-1{
+    height: 8px;
+    width: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+  .play-button {
+    width: 24px;
+    height: 24px;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translate(1540px, -18px)
+  }
+  .play-button i {
+   margin-top: 1px;
+   width: 10px;
+  }
+
+  footer{
+    /* align-items: center; */
+    height: 960px;
+    /* width: 100vw; */
+    background: rgb(245, 245, 247);
+    /* opacity: 0.36; */
+    color: rgba(0, 0, 0, 0.56);
+    max-height: 960;
+    margin-top: -21px
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 10px 250px 0px 220px;
+    font-size: 13px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: 'SF Pro Display regular';
+    color: rgba(0, 0, 0, 0.56);
+    
+}
+.footer1 a{
+    color: rgba(0, 0, 0, 0.72)
+}
+
+.footer1 .para1{
+    padding-bottom: 10px;
+    
+}
+
+.footer1 .para2{
+    padding-bottom: 10px;
+    
+}
+
+.footer1 .para3{
+    padding-bottom: 10px;
+    
+}
+
+.footer1 .para4{
+    padding-bottom: 10px;
+
+}
+.footer1 .para5{
+    padding-bottom: 10px;
+    
+}
+.footer1 .para6{
+    padding-bottom: 10px;
+
+}
+.footer1 .para7{
+    padding-bottom: 10px;
+
+}
+hr.solid {
+    border-top: 1px solid #bbb;
+    margin-top: 0px;
+    transform: translate(-4px, 18px);
+
+  }
+.footer2{
+    line-height: 189%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -5px 151px 0px 1px;
+    cursor: default;
+    color: rgba(0, 0, 0, 0.88);
+    margin-bottom: -78px;
+}
+.footer2 a:hover{
+    text-decoration: underline;
+}
+.footer2 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.72)
+}
+.sub-footer1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sub-footer2{
+    position: relative;
+    top: -15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sub-footer3{
+    position: relative;
+    top: -40px;
+    display: flex;
+    flex-direction: column;
+}
+.sub-footer4{
+    position: relative;
+    top: -40px;
+    display: flex;
+    flex-direction: column;
+}
+.sub-footer5{
+    position: relative;
+    top: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.wallet {
+    transform: translate(0px, 16px);
+}
+hr.solid-1 {
+    border-top: 1px solid #bbb;
+    margin-top: 0px;
+    transform: translate(-4px, 45px);
+}
+.footer-end p{
+    margin-top: 115px;
+    transform: translate(0px, 12px);
+}
+.footer-end p span{
+    color: rgb(0, 102, 204);;
+    text-decoration: underline;
+}
+.panel1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 10px;
+    position: relative;
+    right: 81%;
+    font: 1em sans-serif;
+    transform: translate(64px, 63px);
+    z-index: 6;
+   }
+   
+.footer-end-1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.72);
+    background: rgb(245, 245, 247);    padding: 10px 0;
+    transform: translate(3px, 37px);
+}
+ .footer-end-1 a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 5px;
+  }
+  .footer-last a{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.72);
+    background: rgb(245, 245, 247);   
+    transform: translate(-2px, 12px);    
+    float: inline-end;
+    text-decoration: none;
+  }
+  .footer-last a:hover{
+    text-decoration: underline;
+  }
+  .footer-end-1 a:hover {
+    text-decoration: underline;
+  }
+  .footer-end-1 span {
+    color: #333;
+    margin: 0 5px;
+  }
+    
